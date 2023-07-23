@@ -86,13 +86,14 @@ sudo mv apache-maven-3.9.3/ maven
 vi ~/.bash_profile  # and add the lines below
 export M2_HOME=/opt/maven
 export PATH=$PATH:$M2_HOME/bin
+```
 
 ## Alternatively
 ```sh
 echo "export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk" >> ~/.bashrc
 source ~/.bashrc
 ```
-```
+
 ## .#Step4) Refresh the profile file and Verify if maven is running
 ```sh
 source ~/.bash_profile
